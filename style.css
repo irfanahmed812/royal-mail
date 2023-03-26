@@ -1,0 +1,422 @@
+body {
+    background: #ffffff;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: rgb(255, 255, 255);
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: rgb(243, 243, 243);
+}
+
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.801);
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo span {
+    color: rgb(236, 154, 32);
+}
+
+.card-bg {
+    padding: 10%;
+}
+
+.card-bg h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.card-bg p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.card-bg h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.banner img {
+    width: 100%;
+    height: 439px;
+    object-fit: contain;
+}
+
+.earning button {
+    border: none;
+    background: #ffcc02;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    padding: 9px 17px;
+}
+
+.earning button:hover {
+    background: #f3b83a;
+    transition: all 0.3s;
+}
+
+.header-bg {
+    background-image: linear-gradient(180deg, #41a784, #00e28f)
+}
+
+/* section 2 */
+.card-bg-2 {
+    padding: 5% 0;
+}
+
+.card-bg-2 .heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.heading span {
+    width: 52px;
+    height: 3px;
+    background: rgb(224, 149, 37);
+    display: block;
+    margin: auto;
+    position: absolute;
+    margin-top: 4px;
+    border-radius: 50px;
+}
+
+.card-bg-2 h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.card-bg-2 h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(95, 125, 149);
+}
+
+.card-bg-2 .big-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(95, 125, 149);
+}
+
+.hastag h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(95, 125, 149);
+}
+
+/* section 3 */
+.section3-1 h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(224, 149, 37);
+}
+
+.section3-1 span {
+    width: 77px;
+    height: 3px;
+    background: rgb(224, 149, 37);
+    display: block;
+    margin: auto;
+    position: absolute;
+    margin-top: 4px;
+    border-radius: 50px;
+}
+
+.section3-1 h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.card i {
+    font-size: 45px;
+    color: #f39d3a;
+    padding-left: 23px;
+    padding-top: 9px;
+}
+
+.section3-2 {
+    padding: 8%;
+}
+
+.section3-2 h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.section3-2 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.new {
+    background: #0a0b24;
+}
+
+.bg3 {
+    background: #212529;
+}
+
+/* pricing */
+.pricing-tag {
+    display: inline-block;
+    padding: 6px 21px;
+    position: absolute;
+    top: -11px;
+    right: 15px;
+    border-radius: 1rem;
+    background: hsl(var(--base));
+    font-family: var(--heading-font);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    color: hsl(var(--white));
+    background: #00e28f;
+}
+
+.bg-gold {
+    background: #FFD700;
+}
+
+.bg-pla {
+    background: #E5E4E2;
+}
+
+.bg-sil {
+    background: #C0C0C0;
+}
+
+.pl {
+    background: #9de7e1;
+}
+
+.rg {
+    background: #aee79d;
+}
+
+.sv {
+    background: #9daee7;
+}
+
+.gd {
+    background: #e7d39d;
+}
+
+
+.subscribe-check i {
+    font-size: 18px;
+    padding: 0;
+    padding-top: 2px;
+    color: #41a784;
+}
+
+.subscribe-text h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.subscribe-text p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.subscribe-text .price {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.subscribe-text .taka {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* how to earn */
+
+.earn {
+    background: #fd7e17;
+    color: white;
+}
+
+/* signup */
+.signup-login a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.signup-login .active {
+    font-size: 25px;
+    color: #fd7e17;
+    font-weight: 700;
+}
+
+
+/* footer */
+footer {
+    background: #101010;
+    padding: 30px 0;
+}
+
+.single-content {
+    padding: 115px 0;
+    text-align: center;
+}
+
+.single-box p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.single-box .card-area {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.single-box ul li {
+    list-style: none;
+}
+
+.single-box ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 2.5;
+    font-weight: 100;
+}
+
+.single-box ul li a:hover {
+    text-decoration: underline;
+}
+
+.single-box h2 {
+    color: #ffff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#basic-addon2 {
+    background: #fe1e4f;
+    color: #fff;
+}
+
+.font-awesome i {
+    font-size: 21px;
+    color: #fff;
+    padding: 4px;
+}
+
+/* social media */
+.fa-facebook:hover {
+    color: #497ee9;
+    transition: 0.3s;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+    transition: 0.3s;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
+    transition: 0.3s;
+}
+
+.fa-instagram:hover {
+    color: #bc1888;
+    transition: 0.3s;
+}
+
+.fa-dribbble:hover {
+    color: #Ea4c89;
+    transition: 0.3s;
+}
+
+.btn i:hover {
+    font-size: 19px;
+    transition: 0.3s;
+}
+
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: -32px;
+}
+
+@media (max-width: 767px) {
+    .single-box {
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-box {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width:425px) {
+    .abcd {
+        text-align: center;
+    }
+
+    .navbar {
+        align-items: center;
+    }
+
+    .smd .card {
+        width: 100%;
+    }
+}
